@@ -159,6 +159,38 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_-rAkUHRCEeamhuNbhRFJSQ" name="Satellite">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_svWJ0HRfEeamhuNbhRFJSQ" name="eclipses" type="_-sjuYHRAEeamhuNbhRFJSQ" association="_svOOAHRfEeamhuNbhRFJSQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_xRiioHRfEeamhuNbhRFJSQ" name="trayectorias libres de actividad" type="_EAP1kHRBEeamhuNbhRFJSQ" association="_xRgGYHRfEeamhuNbhRFJSQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A_1ngHRgEeamhuNbhRFJSQ" name="Norad ID"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L2QXcHRgEeamhuNbhRFJSQ" name="getCelestialPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NCKJ4HRgEeamhuNbhRFJSQ" name="Operation2"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NO8osHRgEeamhuNbhRFJSQ" name="Operation3"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NSTesHRgEeamhuNbhRFJSQ" name="Operation4"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NuiHsHRgEeamhuNbhRFJSQ" name="Operation5"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_N9Nc4HRgEeamhuNbhRFJSQ" name="Operation6"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OXMDIHRgEeamhuNbhRFJSQ" name="Operation7"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OaE_EHRgEeamhuNbhRFJSQ" name="Operation8"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Och2IHRgEeamhuNbhRFJSQ" name="Operation9"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OfCXkHRgEeamhuNbhRFJSQ" name="Operation10"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O4XdkHRgEeamhuNbhRFJSQ" name="Operation11"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O7PLYHRgEeamhuNbhRFJSQ" name="Operation12"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TH8cYHRgEeamhuNbhRFJSQ" name="Operation13"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TeG5oHRgEeamhuNbhRFJSQ" name="Operation14"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Tgv98HRgEeamhuNbhRFJSQ" name="Operation15"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TjJKoHRgEeamhuNbhRFJSQ" name="Operation16"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Tl-cMHRgEeamhuNbhRFJSQ" name="Operation17"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Tu2EUHRgEeamhuNbhRFJSQ" name="Operation18"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TxvAQHRgEeamhuNbhRFJSQ" name="Operation19"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T0qYcHRgEeamhuNbhRFJSQ" name="Operation20"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T3S1sHRgEeamhuNbhRFJSQ" name="Operation21"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T5oYAHRgEeamhuNbhRFJSQ" name="Operation22"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T8dpkHRgEeamhuNbhRFJSQ" name="Operation23"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UABT4HRgEeamhuNbhRFJSQ" name="Operation24"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UCojAHRgEeamhuNbhRFJSQ" name="Operation25"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UqyvMHRgEeamhuNbhRFJSQ" name="Operation26"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U4o98HRgEeamhuNbhRFJSQ" name="Operation27"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U7BjkHRgEeamhuNbhRFJSQ" name="Operation28"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U9j6MHRgEeamhuNbhRFJSQ" name="Operation29"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VAR3AHRgEeamhuNbhRFJSQ" name="Operation30"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VDDeMHRgEeamhuNbhRFJSQ" name="Operation31"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_rDUhIHREEeamhuNbhRFJSQ" name="ORBI">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_xEq_kHREEeamhuNbhRFJSQ" name="Solicitar Pasada">
@@ -296,5 +328,11 @@
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
     </eAnnotations>
     <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+  </profileApplication>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_R2VDgHRgEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R2W4sHRgEeamhuNbhRFJSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
   </profileApplication>
 </uml:Model>
