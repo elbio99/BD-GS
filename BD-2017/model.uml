@@ -7,9 +7,9 @@
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GBL78HQoEeaF1KYuXP5jyg" name="AyN"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OXm0UHQoEeaF1KYuXP5jyg" name="Institución"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_bdFBgHRDEeamhuNbhRFJSQ" name="Class1"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_6kfkgHOKEeagqpffJBA2SA" name="ROI">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_CXUAkHOLEeagqpffJBA2SA" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_CXSLYHOLEeagqpffJBA2SA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6kfkgHOKEeagqpffJBA2SA" name="Sitios">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_mHbfoHQoEeaF1KYuXP5jyg" name="Region"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_oVboQHQoEeaF1KYuXP5jyg" name="Lat"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_s2qXwHQoEeaF1KYuXP5jyg" name="Long"/>
@@ -40,12 +40,6 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_25yNEHQpEeaF1KYuXP5jyg" name="Prioridad"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BykUgHQqEeaF1KYuXP5jyg" name="NPedido"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_CXSLYHOLEeagqpffJBA2SA" memberEnd="_CXUAkHOLEeagqpffJBA2SA _CXUnoHOLEeagqpffJBA2SA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CXTZgHOLEeagqpffJBA2SA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CXTZgXOLEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_CXUnoHOLEeagqpffJBA2SA" name="roi" type="_6kfkgHOKEeagqpffJBA2SA" association="_CXSLYHOLEeagqpffJBA2SA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_DlxXwHOLEeagqpffJBA2SA" memberEnd="_Dlyl4XOLEeagqpffJBA2SA _DlzM8HOLEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dlx-0HOLEeagqpffJBA2SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dlyl4HOLEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
@@ -65,9 +59,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_KmOGQHOMEeagqpffJBA2SA" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_KmM4IHOMEeagqpffJBA2SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_XawIsHOMEeagqpffJBA2SA" name="ORBIT">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_7g20MHOMEeagqpffJBA2SA" name="final plan" type="_l5aKoHOMEeagqpffJBA2SA" association="_7g1mEHOMEeagqpffJBA2SA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_do9-cHOMEeagqpffJBA2SA" memberEnd="_do-lgnOMEeagqpffJBA2SA _do_MkHOMEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_do-lgHOMEeagqpffJBA2SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do-lgXOMEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
@@ -86,12 +77,6 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6zk3cXOMEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_6zlegHOMEeagqpffJBA2SA" name="pedidos" type="_BclBMHOMEeagqpffJBA2SA" association="_6zkQYHOMEeagqpffJBA2SA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_7g1mEHOMEeagqpffJBA2SA" memberEnd="_7g20MHOMEeagqpffJBA2SA _7g3bQHOMEeagqpffJBA2SA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7g2NIHOMEeagqpffJBA2SA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7g2NIXOMEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_7g3bQHOMEeagqpffJBA2SA" name="orbit" type="_XawIsHOMEeagqpffJBA2SA" association="_7g1mEHOMEeagqpffJBA2SA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8UJ5YHOMEeagqpffJBA2SA" memberEnd="_8UKgcnOMEeagqpffJBA2SA _8ULHgHOMEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8UKgcHOMEeagqpffJBA2SA" source="org.eclipse.papyrus">
@@ -142,6 +127,87 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7j1W0HQoEeaF1KYuXP5jyg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7j194XQoEeaF1KYuXP5jyg" name="instrumentos" type="_7rAgoHOKEeagqpffJBA2SA" association="_7jzhoHQoEeaF1KYuXP5jyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-sjuYHRAEeamhuNbhRFJSQ" name="Eclipses">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r16jEHRBEeamhuNbhRFJSQ" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_r10ccHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ah-X4HRBEeamhuNbhRFJSQ" name="Pasadas">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uGRcIXRBEeamhuNbhRFJSQ" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_uGQOAHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EAP1kHRBEeamhuNbhRFJSQ" name="Trayectorias libres de actividad">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tLJQoXRBEeamhuNbhRFJSQ" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_tLICgHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r10ccHRBEeamhuNbhRFJSQ" memberEnd="_r16jEHRBEeamhuNbhRFJSQ _r17KIHRBEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r13fwHRBEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r13fwXRBEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r17KIHRBEeamhuNbhRFJSQ" name="pasada" type="_-sjuYHRAEeamhuNbhRFJSQ" association="_r10ccHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tLICgHRBEeamhuNbhRFJSQ" memberEnd="_tLJQoXRBEeamhuNbhRFJSQ _tLJ3sHRBEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tLIpkHRBEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tLJQoHRBEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tLJ3sHRBEeamhuNbhRFJSQ" name="trayectorias libres de actividad" type="_EAP1kHRBEeamhuNbhRFJSQ" association="_tLICgHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uGQOAHRBEeamhuNbhRFJSQ" memberEnd="_uGRcIXRBEeamhuNbhRFJSQ _uGSDMHRBEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uGQ1EHRBEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uGRcIHRBEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uGSDMHRBEeamhuNbhRFJSQ" name="eclipses" type="_Ah-X4HRBEeamhuNbhRFJSQ" association="_uGQOAHRBEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-rAkUHRCEeamhuNbhRFJSQ" name="Satellite"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_rDUhIHREEeamhuNbhRFJSQ" name="ORBI">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xEq_kHREEeamhuNbhRFJSQ" name="Solicitar Pasada">
+      <include xmi:type="uml:Include" xmi:id="_LazgoHRXEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_PSF7QHRXEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_Twq_YHRXEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1_mogHREEeamhuNbhRFJSQ" name="Solicitar Eclipses">
+      <include xmi:type="uml:Include" xmi:id="_DZWWMHRYEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_EUDq8HRYEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_JwqdkHRYEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7zQpMHREEeamhuNbhRFJSQ" name="Solicitar Trayectoria sin Actividad">
+      <include xmi:type="uml:Include" xmi:id="_IQKUIHRYEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_KcGnQHRYEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_LSdAcHRYEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3iNmkHRLEeamhuNbhRFJSQ" name="Seleccionar Satélite">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-NL94HRYEeamhuNbhRFJSQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EeJVsHRFEeamhuNbhRFJSQ" name="Seleccionar Intervalo"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VuRZsHRFEeamhuNbhRFJSQ" name="Seleccionar Sitio">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C_3kYHRGEeamhuNbhRFJSQ" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_s3BjUHRYEeamhuNbhRFJSQ" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7thIYHRWEeamhuNbhRFJSQ" name="Cargar Satélite">
+      <extend xmi:type="uml:Extend" xmi:id="_-NLW0HRYEeamhuNbhRFJSQ" extendedCase="_3iNmkHRLEeamhuNbhRFJSQ" extensionLocation="_-NL94HRYEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBNyAHRFEeamhuNbhRFJSQ" name="Cargar Sitio">
+      <extend xmi:type="uml:Extend" xmi:id="_s2_uIHRYEeamhuNbhRFJSQ" extendedCase="_VuRZsHRFEeamhuNbhRFJSQ" extensionLocation="_s3BjUHRYEeamhuNbhRFJSQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_t0FYkHREEeamhuNbhRFJSQ" name="Operador de GS"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pen-wHRFEeamhuNbhRFJSQ" memberEnd="_pepz8XRFEeamhuNbhRFJSQ _peqbAHRFEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pepM4HRFEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pepz8HRFEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pepz8XRFEeamhuNbhRFJSQ" name="solicitar pasada" type="_xEq_kHREEeamhuNbhRFJSQ" association="_pen-wHRFEeamhuNbhRFJSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_peqbAHRFEeamhuNbhRFJSQ" name="actor1" type="_t0FYkHREEeamhuNbhRFJSQ" association="_pen-wHRFEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qOkN8HRFEeamhuNbhRFJSQ" memberEnd="_qOlcEHRFEeamhuNbhRFJSQ _qOlcEXRFEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qOk1AHRFEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qOk1AXRFEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qOlcEHRFEeamhuNbhRFJSQ" name="solicitar eclipses" type="_1_mogHREEeamhuNbhRFJSQ" association="_qOkN8HRFEeamhuNbhRFJSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qOlcEXRFEeamhuNbhRFJSQ" name="actor1" type="_t0FYkHREEeamhuNbhRFJSQ" association="_qOkN8HRFEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rJhaUHRFEeamhuNbhRFJSQ" memberEnd="_rJjPgHRFEeamhuNbhRFJSQ _rJj2kHRFEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rJiocHRFEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rJiocXRFEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rJjPgHRFEeamhuNbhRFJSQ" name="solicitar trayectoria sin actividad" type="_7zQpMHREEeamhuNbhRFJSQ" association="_rJhaUHRFEeamhuNbhRFJSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rJj2kHRFEeamhuNbhRFJSQ" name="actor1" type="_t0FYkHREEeamhuNbhRFJSQ" association="_rJhaUHRFEeamhuNbhRFJSQ"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oeXFkHOKEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeXFkXOKEeagqpffJBA2SA" source="http://www.eclipse.org/uml2/2.0.0/UML">
