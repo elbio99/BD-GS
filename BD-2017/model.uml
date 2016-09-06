@@ -13,6 +13,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_mHbfoHQoEeaF1KYuXP5jyg" name="Region"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_oVboQHQoEeaF1KYuXP5jyg" name="Lat"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_s2qXwHQoEeaF1KYuXP5jyg" name="Long"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1Vuw0XRfEeamhuNbhRFJSQ" name="pasadas" type="_Ah-X4HRBEeamhuNbhRFJSQ" association="_1VtisHRfEeamhuNbhRFJSQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_7rAgoHOKEeagqpffJBA2SA" name="iNSTRUMENTOS">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_do-lgnOMEeagqpffJBA2SA" name="table tc" type="_9bHzYHOKEeagqpffJBA2SA" association="_do9-cHOMEeagqpffJBA2SA">
@@ -155,7 +156,10 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_uGSDMHRBEeamhuNbhRFJSQ" name="eclipses" type="_Ah-X4HRBEeamhuNbhRFJSQ" association="_uGQOAHRBEeamhuNbhRFJSQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_-rAkUHRCEeamhuNbhRFJSQ" name="Satellite"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-rAkUHRCEeamhuNbhRFJSQ" name="Satellite">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_svWJ0HRfEeamhuNbhRFJSQ" name="eclipses" type="_-sjuYHRAEeamhuNbhRFJSQ" association="_svOOAHRfEeamhuNbhRFJSQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xRiioHRfEeamhuNbhRFJSQ" name="trayectorias libres de actividad" type="_EAP1kHRBEeamhuNbhRFJSQ" association="_xRgGYHRfEeamhuNbhRFJSQ"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_rDUhIHREEeamhuNbhRFJSQ" name="ORBI">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_xEq_kHREEeamhuNbhRFJSQ" name="Solicitar Pasada">
       <include xmi:type="uml:Include" xmi:id="_LazgoHRXEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
@@ -208,6 +212,24 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_rJjPgHRFEeamhuNbhRFJSQ" name="solicitar trayectoria sin actividad" type="_7zQpMHREEeamhuNbhRFJSQ" association="_rJhaUHRFEeamhuNbhRFJSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_rJj2kHRFEeamhuNbhRFJSQ" name="actor1" type="_t0FYkHREEeamhuNbhRFJSQ" association="_rJhaUHRFEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_svOOAHRfEeamhuNbhRFJSQ" memberEnd="_svWJ0HRfEeamhuNbhRFJSQ _svXX8HRfEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_svU7sHRfEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_svViwHRfEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_svXX8HRfEeamhuNbhRFJSQ" name="satellite" type="_-rAkUHRCEeamhuNbhRFJSQ" association="_svOOAHRfEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xRgGYHRfEeamhuNbhRFJSQ" memberEnd="_xRiioHRfEeamhuNbhRFJSQ _xRjJsHRfEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xRh7kHRfEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xRh7kXRfEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xRjJsHRfEeamhuNbhRFJSQ" name="satellite" type="_-rAkUHRCEeamhuNbhRFJSQ" association="_xRgGYHRfEeamhuNbhRFJSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1VtisHRfEeamhuNbhRFJSQ" memberEnd="_1Vuw0XRfEeamhuNbhRFJSQ _1VvX4HRfEeamhuNbhRFJSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1VuJwHRfEeamhuNbhRFJSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1Vuw0HRfEeamhuNbhRFJSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1VvX4HRfEeamhuNbhRFJSQ" name="sitios" type="_6kfkgHOKEeagqpffJBA2SA" association="_1VtisHRfEeamhuNbhRFJSQ"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oeXFkHOKEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeXFkXOKEeagqpffJBA2SA" source="http://www.eclipse.org/uml2/2.0.0/UML">
