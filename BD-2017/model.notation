@@ -880,6 +880,11 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_rDaAsHREEeamhuNbhRFJSQ" type="5025"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_rDaAsXREEeamhuNbhRFJSQ" type="7013">
         <children xmi:type="notation:Shape" xmi:id="_xE7eQHREEeamhuNbhRFJSQ" type="3012" fillColor="12632256">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YWyxwHReEeamhuNbhRFJSQ" source="PapyrusHyperLink_Document">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YWyxwXReEeamhuNbhRFJSQ" key="tooltip_text" value="/home/ubuntumate/git/BD-GS/BD-2017/solicitarpasadaCU.pdf"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YWyxwnReEeamhuNbhRFJSQ" key="localization" value="../git/BD-GS/BD-2017/solicitarpasadaCU.pdf"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YWyxw3ReEeamhuNbhRFJSQ" key="is_default_navigation" value="false"/>
+          </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_xE8FUHREEeamhuNbhRFJSQ" type="5022"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_xE8sYHREEeamhuNbhRFJSQ" type="6046">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_xE8sYXREEeamhuNbhRFJSQ" y="5"/>
