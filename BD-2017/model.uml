@@ -2,24 +2,43 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oazbQHOKEeagqpffJBA2SA" name="BD2017">
   <packagedElement xmi:type="uml:Class" xmi:id="_028L0HOKEeagqpffJBA2SA" name="User">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Dlyl4XOLEeagqpffJBA2SA" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_DlxXwHOLEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8fWZUHQnEeaF1KYuXP5jyg" name="clave">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_EIFFQHQoEeaF1KYuXP5jyg" name="INT"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GBL78HQoEeaF1KYuXP5jyg" name="AyN"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OXm0UHQoEeaF1KYuXP5jyg" name="Institución"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_6kfkgHOKEeagqpffJBA2SA" name="ROI">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_CXUAkHOLEeagqpffJBA2SA" name="pass plan" type="__UHVUHOKEeagqpffJBA2SA" association="_CXSLYHOLEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mHbfoHQoEeaF1KYuXP5jyg" name="Region"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oVboQHQoEeaF1KYuXP5jyg" name="Lat"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s2qXwHQoEeaF1KYuXP5jyg" name="Long"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_7rAgoHOKEeagqpffJBA2SA" name="iNSTRUMENTOS">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_do-lgnOMEeagqpffJBA2SA" name="table tc" type="_9bHzYHOKEeagqpffJBA2SA" association="_do9-cHOMEeagqpffJBA2SA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i0m84HOMEeagqpffJBA2SA" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i0pZIHOMEeagqpffJBA2SA" value="*"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a_aCUHQoEeaF1KYuXP5jyg" name="ID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_duWU0HQoEeaF1KYuXP5jyg" name="NombreInst"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7j194HQoEeaF1KYuXP5jyg" name="tm-estadosalud" type="_Y-FHMHONEeagqpffJBA2SA" association="_7jzhoHQoEeaF1KYuXP5jyg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9bHzYHOKEeagqpffJBA2SA" name="TABLE TC">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8UKgcnOMEeagqpffJBA2SA" name="final plan" type="_l5aKoHOMEeagqpffJBA2SA" association="_8UJ5YHOMEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oqmKgHQpEeaF1KYuXP5jyg" name="Nombre"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pilicHQpEeaF1KYuXP5jyg" name="Descripcion"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__UHVUHOKEeagqpffJBA2SA" name="PASS PLAN">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_KmNfMXOMEeagqpffJBA2SA" name="pedidos" type="_BclBMHOMEeagqpffJBA2SA" association="_KmM4IHOMEeagqpffJBA2SA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UqBtgHOMEeagqpffJBA2SA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UqEw0HOMEeagqpffJBA2SA" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uDW-8HQpEeaF1KYuXP5jyg" name="Region"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v3pnEHQpEeaF1KYuXP5jyg" name="Usuario"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zli1IHQpEeaF1KYuXP5jyg" name="Pedido"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1cskAHQpEeaF1KYuXP5jyg" name="Fecha"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_25yNEHQpEeaF1KYuXP5jyg" name="Prioridad"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BykUgHQqEeaF1KYuXP5jyg" name="NPedido"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_CXSLYHOLEeagqpffJBA2SA" memberEnd="_CXUAkHOLEeagqpffJBA2SA _CXUnoHOLEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CXTZgHOLEeagqpffJBA2SA" source="org.eclipse.papyrus">
@@ -35,6 +54,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_BclBMHOMEeagqpffJBA2SA" name="PEDIDOS">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_6zk3cnOMEeagqpffJBA2SA" name="final plan" type="_l5aKoHOMEeagqpffJBA2SA" association="_6zkQYHOMEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KQKL4HQqEeaF1KYuXP5jyg" name="NPedido"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OFISUHQqEeaF1KYuXP5jyg" name="Priodidad"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PJmAAHQqEeaF1KYuXP5jyg" name="Fecha"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SjQqgHQqEeaF1KYuXP5jyg" name="Estado"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_KmM4IHOMEeagqpffJBA2SA" memberEnd="_KmNfMXOMEeagqpffJBA2SA _KmOGQHOMEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KmM4IXOMEeagqpffJBA2SA" source="org.eclipse.papyrus">
@@ -53,6 +76,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_l5aKoHOMEeagqpffJBA2SA" name="FINAL PLAN">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_dy3E0XONEeagqpffJBA2SA" name="tm-estadosalud" type="_Y-FHMHONEeagqpffJBA2SA" association="_dy12sHONEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YqUIUHQqEeaF1KYuXP5jyg" name="Codigo"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bLN-0HQqEeaF1KYuXP5jyg" name="Estacion"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cgAngHQqEeaF1KYuXP5jyg" name="NPedido"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dtCbUHQqEeaF1KYuXP5jyg" name="Fecha"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_6zkQYHOMEeagqpffJBA2SA" memberEnd="_6zk3cnOMEeagqpffJBA2SA _6zlegHOMEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6zk3cHOMEeagqpffJBA2SA" source="org.eclipse.papyrus">
@@ -74,6 +101,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__5FYsHOMEeagqpffJBA2SA" name="ESTACION TERRENA">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GvBVwXONEeagqpffJBA2SA" name="final plan" type="_l5aKoHOMEeagqpffJBA2SA" association="_Gu_gkHONEeagqpffJBA2SA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vrBVwHQoEeaF1KYuXP5jyg" name="Nombre"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yQMoQHQoEeaF1KYuXP5jyg" name="Zona"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Gu_gkHONEeagqpffJBA2SA" memberEnd="_GvBVwXONEeagqpffJBA2SA _GvDK8HONEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GvAusHONEeagqpffJBA2SA" source="org.eclipse.papyrus">
@@ -85,7 +114,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4AOwonONEeagqpffJBA2SA" name="tm-estadosalud" type="_Y-FHMHONEeagqpffJBA2SA" association="_4AOJkHONEeagqpffJBA2SA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_-Ia24nONEeagqpffJBA2SA" name="datos 3" type="_4ijakHONEeagqpffJBA2SA" association="_-IaP0HONEeagqpffJBA2SA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Y-FHMHONEeagqpffJBA2SA" name="TM-EstadoSalud"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Y-FHMHONEeagqpffJBA2SA" name="TM-EstadoSalud">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_THz-gHQpEeaF1KYuXP5jyg" name="Temperatura"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YMVBQHQpEeaF1KYuXP5jyg" name="Voltaje"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_dy12sHONEeagqpffJBA2SA" memberEnd="_dy3E0XONEeagqpffJBA2SA _dy3r4HONEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dy2dwHONEeagqpffJBA2SA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dy3E0HONEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
@@ -104,6 +136,12 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-Ia24XONEeagqpffJBA2SA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-Ibd8HONEeagqpffJBA2SA" name="repositorio ftp" type="_T4r6sHONEeagqpffJBA2SA" association="_-IaP0HONEeagqpffJBA2SA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7jzhoHQoEeaF1KYuXP5jyg" memberEnd="_7j194HQoEeaF1KYuXP5jyg _7j194XQoEeaF1KYuXP5jyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7j0vwHQoEeaF1KYuXP5jyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7j1W0HQoEeaF1KYuXP5jyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7j194XQoEeaF1KYuXP5jyg" name="instrumentos" type="_7rAgoHOKEeagqpffJBA2SA" association="_7jzhoHQoEeaF1KYuXP5jyg"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oeXFkHOKEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeXFkXOKEeagqpffJBA2SA" source="http://www.eclipse.org/uml2/2.0.0/UML">
