@@ -263,6 +263,38 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_1VvX4HRfEeamhuNbhRFJSQ" name="sitios" type="_6kfkgHOKEeagqpffJBA2SA" association="_1VtisHRfEeamhuNbhRFJSQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_L5leYHUHEea41p_S3ReoXg" name="Orbit Dynamic Expert"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_PBTdQHUHEea41p_S3ReoXg" name="Orbits Dynamics">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R2Eq8HUHEea41p_S3ReoXg" name="Auditar dinamica orbital">
+      <extend xmi:type="uml:Extend" xmi:id="_rK0ssHUHEea41p_S3ReoXg" extendedCase="_XATUIHUHEea41p_S3ReoXg" extensionLocation="_rK160HUHEea41p_S3ReoXg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_xD8cMHUHEea41p_S3ReoXg" extendedCase="_tNPQYHUHEea41p_S3ReoXg" extensionLocation="_xD9qUHUHEea41p_S3ReoXg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_xcoB8HUHEea41p_S3ReoXg" extendedCase="_tfEAMHUHEea41p_S3ReoXg" extensionLocation="_xcopAHUHEea41p_S3ReoXg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_x4Z_AHUHEea41p_S3ReoXg" extendedCase="_tw1ssHUHEea41p_S3ReoXg" extensionLocation="_x4amEHUHEea41p_S3ReoXg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_QbEjMHUgEea41p_S3ReoXg" extendedCase="_OT2_EHUgEea41p_S3ReoXg" extensionLocation="_QbFxUHUgEea41p_S3ReoXg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XATUIHUHEea41p_S3ReoXg" name="Buscar Parametro">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rK160HUHEea41p_S3ReoXg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tNPQYHUHEea41p_S3ReoXg" name="Buscar TLEs">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xD9qUHUHEea41p_S3ReoXg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tfEAMHUHEea41p_S3ReoXg" name="Buscar Satelite">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xcopAHUHEea41p_S3ReoXg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tw1ssHUHEea41p_S3ReoXg" name="Buscar Logs">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_x4amEHUHEea41p_S3ReoXg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OT2_EHUgEea41p_S3ReoXg" name="Buscar Propagaciones">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QbFxUHUgEea41p_S3ReoXg" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ysaO0HUHEea41p_S3ReoXg" memberEnd="_yscEAHUHEea41p_S3ReoXg _yscrEHUHEea41p_S3ReoXg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ysbc8HUHEea41p_S3ReoXg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ysbc8XUHEea41p_S3ReoXg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yscEAHUHEea41p_S3ReoXg" name="auditar dinamica orbital" type="_R2Eq8HUHEea41p_S3ReoXg" association="_ysaO0HUHEea41p_S3ReoXg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yscrEHUHEea41p_S3ReoXg" name="orbit dynamic expert" type="_L5leYHUHEea41p_S3ReoXg" association="_ysaO0HUHEea41p_S3ReoXg"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oeXFkHOKEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeXFkXOKEeagqpffJBA2SA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
