@@ -271,6 +271,11 @@
       <extend xmi:type="uml:Extend" xmi:id="_xcoB8HUHEea41p_S3ReoXg" extendedCase="_tfEAMHUHEea41p_S3ReoXg" extensionLocation="_xcopAHUHEea41p_S3ReoXg"/>
       <extend xmi:type="uml:Extend" xmi:id="_x4Z_AHUHEea41p_S3ReoXg" extendedCase="_tw1ssHUHEea41p_S3ReoXg" extensionLocation="_x4amEHUHEea41p_S3ReoXg"/>
       <extend xmi:type="uml:Extend" xmi:id="_QbEjMHUgEea41p_S3ReoXg" extendedCase="_OT2_EHUgEea41p_S3ReoXg" extensionLocation="_QbFxUHUgEea41p_S3ReoXg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_lNRPcHXTEeaa35pWZdUxBw" name="Buscar Parametro"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qjHSwHXTEeaa35pWZdUxBw" name="Buscar TLEs"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_s5QDsHXTEeaa35pWZdUxBw" name="Buscar Propagaciones"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vF3sQHXTEeaa35pWZdUxBw" name="Buscar Satelites"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wbNHgHXTEeaa35pWZdUxBw" name="Buscar Logs"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_XATUIHUHEea41p_S3ReoXg" name="Buscar Parametro">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rK160HUHEea41p_S3ReoXg" name="ExtensionPoint1"/>
