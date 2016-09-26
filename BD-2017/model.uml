@@ -193,34 +193,47 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_VDDeMHRgEeamhuNbhRFJSQ" name="Operation31"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_rDUhIHREEeamhuNbhRFJSQ" name="ORBI">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_xEq_kHREEeamhuNbhRFJSQ" name="Solicitar Pasada">
-      <include xmi:type="uml:Include" xmi:id="_LazgoHRXEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_PSF7QHRXEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_Twq_YHRXEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xEq_kHREEeamhuNbhRFJSQ" name="Solicitar Pasada para Adquisicion">
+      <include xmi:type="uml:Include" xmi:id="_U2FdsIQNEeaXS9zuZQXYaw" addition="_OKYasIQNEeaXS9zuZQXYaw"/>
+      <include xmi:type="uml:Include" xmi:id="_4xsJYIQNEeaXS9zuZQXYaw" addition="_vs-noIQNEeaXS9zuZQXYaw"/>
+      <include xmi:type="uml:Include" xmi:id="_5lkdYIQNEeaXS9zuZQXYaw" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_1_mogHREEeamhuNbhRFJSQ" name="Solicitar Eclipses">
-      <include xmi:type="uml:Include" xmi:id="_DZWWMHRYEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_EUDq8HRYEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_JwqdkHRYEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1_mogHREEeamhuNbhRFJSQ" name="Solicitar Pasada por Estacion/Plataforma">
+      <include xmi:type="uml:Include" xmi:id="_XGrnUIQNEeaXS9zuZQXYaw" addition="_OKYasIQNEeaXS9zuZQXYaw"/>
+      <include xmi:type="uml:Include" xmi:id="_j3fnYIQNEeaXS9zuZQXYaw" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_7zQpMHREEeamhuNbhRFJSQ" name="Solicitar Trayectoria sin Actividad">
-      <include xmi:type="uml:Include" xmi:id="_IQKUIHRYEeamhuNbhRFJSQ" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_KcGnQHRYEeamhuNbhRFJSQ" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
-      <include xmi:type="uml:Include" xmi:id="_LSdAcHRYEeamhuNbhRFJSQ" addition="_3iNmkHRLEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_YIvhQIQNEeaXS9zuZQXYaw" addition="_OKYasIQNEeaXS9zuZQXYaw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_3iNmkHRLEeamhuNbhRFJSQ" name="Seleccionar Satélite">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3iNmkHRLEeamhuNbhRFJSQ" name="Seleccionar Sitio">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-NL94HRYEeamhuNbhRFJSQ" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_EeJVsHRFEeamhuNbhRFJSQ" name="Seleccionar Intervalo"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_VuRZsHRFEeamhuNbhRFJSQ" name="Seleccionar Sitio">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VuRZsHRFEeamhuNbhRFJSQ" name="Seleccionar Satelite">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C_3kYHRGEeamhuNbhRFJSQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_s3BjUHRYEeamhuNbhRFJSQ" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_7thIYHRWEeamhuNbhRFJSQ" name="Cargar Satélite">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7thIYHRWEeamhuNbhRFJSQ" name="Cargar Sitio">
       <extend xmi:type="uml:Extend" xmi:id="_-NLW0HRYEeamhuNbhRFJSQ" extendedCase="_3iNmkHRLEeamhuNbhRFJSQ" extensionLocation="_-NL94HRYEeamhuNbhRFJSQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBNyAHRFEeamhuNbhRFJSQ" name="Cargar Sitio">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBNyAHRFEeamhuNbhRFJSQ" name="Cargar Satelite">
       <extend xmi:type="uml:Extend" xmi:id="_s2_uIHRYEeamhuNbhRFJSQ" extendedCase="_VuRZsHRFEeamhuNbhRFJSQ" extensionLocation="_s3BjUHRYEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1_4lkIQMEeaXS9zuZQXYaw" name="Solicitar Eclipses">
+      <include xmi:type="uml:Include" xmi:id="_XoJ8sIQNEeaXS9zuZQXYaw" addition="_OKYasIQNEeaXS9zuZQXYaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__qmXYIQMEeaXS9zuZQXYaw" name="Generar Efemerides">
+      <include xmi:type="uml:Include" xmi:id="_YwlkYIQNEeaXS9zuZQXYaw" addition="_OKYasIQNEeaXS9zuZQXYaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OKYasIQNEeaXS9zuZQXYaw" name="Seleccionar">
+      <include xmi:type="uml:Include" xmi:id="_ZptkwIQNEeaXS9zuZQXYaw" addition="_VuRZsHRFEeamhuNbhRFJSQ"/>
+      <include xmi:type="uml:Include" xmi:id="_aOK8sIQNEeaXS9zuZQXYaw" addition="_EeJVsHRFEeamhuNbhRFJSQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vs-noIQNEeaXS9zuZQXYaw" name="Seleccionar Instrumento">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7PzxoIQNEeaXS9zuZQXYaw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0MHFYIQNEeaXS9zuZQXYaw" name="Cargar Instrumento">
+      <extend xmi:type="uml:Extend" xmi:id="_7PyjgIQNEeaXS9zuZQXYaw" extendedCase="_vs-noIQNEeaXS9zuZQXYaw" extensionLocation="_7PzxoIQNEeaXS9zuZQXYaw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_t0FYkHREEeamhuNbhRFJSQ" name="Operador de GS"/>
@@ -299,6 +312,20 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yscEAHUHEea41p_S3ReoXg" name="auditar dinamica orbital" type="_R2Eq8HUHEea41p_S3ReoXg" association="_ysaO0HUHEea41p_S3ReoXg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yscrEHUHEea41p_S3ReoXg" name="orbit dynamic expert" type="_L5leYHUHEea41p_S3ReoXg" association="_ysaO0HUHEea41p_S3ReoXg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S8zn4IQNEeaXS9zuZQXYaw" memberEnd="_S83SQIQNEeaXS9zuZQXYaw _S835UIQNEeaXS9zuZQXYaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S81dEIQNEeaXS9zuZQXYaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S82EIIQNEeaXS9zuZQXYaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S83SQIQNEeaXS9zuZQXYaw" name="solicitar eclipses" type="_1_4lkIQMEeaXS9zuZQXYaw" association="_S8zn4IQNEeaXS9zuZQXYaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S835UIQNEeaXS9zuZQXYaw" name="operador de gs" type="_t0FYkHREEeamhuNbhRFJSQ" association="_S8zn4IQNEeaXS9zuZQXYaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TlLPcIQNEeaXS9zuZQXYaw" memberEnd="_TlL2goQNEeaXS9zuZQXYaw _TlL2g4QNEeaXS9zuZQXYaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TlL2gIQNEeaXS9zuZQXYaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TlL2gYQNEeaXS9zuZQXYaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TlL2goQNEeaXS9zuZQXYaw" name="generar efemerides" type="__qmXYIQMEeaXS9zuZQXYaw" association="_TlLPcIQNEeaXS9zuZQXYaw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TlL2g4QNEeaXS9zuZQXYaw" name="operador de gs" type="_t0FYkHREEeamhuNbhRFJSQ" association="_TlLPcIQNEeaXS9zuZQXYaw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oeXFkHOKEeagqpffJBA2SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeXFkXOKEeagqpffJBA2SA" source="http://www.eclipse.org/uml2/2.0.0/UML">
